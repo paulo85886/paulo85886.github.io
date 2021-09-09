@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Caixa de Icones -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="workspace/css/styles.css">
+
+        <title>CV</title>
+    </head>
+    <body >
+        <!-- CABEÇALHO -->
+        <header class="l-header" id="header"> 
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Paulo</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home nav__icon'></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user nav__icon'></i>Profile
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book nav__icon'></i>Education
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-receipt nav__icon'></i>Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon'></i>Experience
+                            </a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class='bx bx-award nav__icon'></i>Certificates
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#references" class="nav__link">
+                                <i class='bx bx-link-external nav__icon'></i>References
+                            </a>
+                        </li>    
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt' ></i>
+                </div>
+            </nav>
+        </header>
+        
+        <main class="l-main bd-container">
+            <!-- Todos os elementos com essa div, são gerados no PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!-- HOME -->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="workspace/img/WhatsApp Image 2021-09-06 at 16.00.33.jpeg" alt="" class="home__img">
+
+                                <h1 class="home__title">Paulo Ricardo Potter Marchi</h1>
+                                <h3 class="home__profession"></h3>
+
+                                <!-- Botão para baixar seu CV salvo em um arquivo PDF. Disponível para Mobile -->
+                                <div>
+                                    <a download="" href="workspace/pdf/meuResumo.pdf" class="home__button-movil">Download</a>
+                                </div>
+                            </div>
+
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class='bx bx-map home__icon' ></i>Willesden Green - London
+                                </span>
+
+                                <span class="home__information">
+                                    <i class='bx bx-envelope home__icon' ></i> paulopotter10@hotmail.com
+                                </span>
+
+                                <!-- <span class="home__information">
+                                    <i class='bx bx-phone home__icon' ></i> [link para o wpp web?]
+                                </span> -->
+                            </div>
+                        </div>
+                    <!-- Mudar tema botao -->
+                    <i class='bx bx-moon change-theme' title="Theme" id="theme-button" ></i>
+
+                    <!-- Botao para gerar e salvar o PDF. Disponivel para desktop -->
+                    <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button" ></i>
+                    </section>
+                    
+
+                    <!-- SOCIAL -->
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+
+                        <div class="social__container bd-grid">
+                            <!-- <a href="https://www.facebook.com/homer.simpsons.37266" target="_blank" class="social__link">
+                                <i class='bx bxl-linkedin-square social__icon' ></i> @Potter Marchi Ricardo Paulo
+                            </a> -->
+
+                            <a href="https://www.facebook.com/homer.simpsons.37266" target="_blank" class="social__link">
+                                <i class='bx bxl-facebook-square social__icon' ></i> @Potter Marchi Ricardo Paulo
+                            </a>
+
+                            <a href="https://www.instagram.com/paulopottermarchi/?hl=pt-br" target="_blank" class="social__link">
+                                <i class='bx bxl-instagram social__icon' ></i> @paulopottermarchi
+                            </a>
+                        </div>
+                    </section>
+
+                    <!-- PERFIL -->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Profile</h2>
+
+                        <p class="profile__description"><p>I am 21 years old and I’m Italian-Brazilian; I was born in São Paulo, Brazil. 
+                        I am the kind of person who likes old things and is always looking for new experiences and if I fail, I will keep trying until I reach my goal.</p>
+                        <p>My objective is to save money to build a passive income source. I speak English and Portuguese.</p>
+                    </section>
+
+                    <!-- FORMAÇÃO -->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">education</h2>
+
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Secundary School Complete</h3>
+                                    <span class="education__studies">Lectus and Rodrigues Alves</span>
+                                    <span class="education__year"></span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <!-- <span class="education__line"></span> -->
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Primary Complete</h3>
+                                    <span class="education__studies">Santos Anjos</span>
+                                    <span class="education__year"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- HABILIDADES -->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Videos editor
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Computer knowledge
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Good at reading the situation and adaptable
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Technical Analysis
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Content Producer
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                </div>
+
+                <div class="resume__right">
+                    <!-- EXPERIENCIA -->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experience</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Substitute Waiter</h3>
+                                    <span class="experience__company">From november 2018 to february 2019 | Zeus Bar Show (Brazil)</span>
+                                    <p class="experience__description">They hired me because of my English speaking skills  and it was a night
+                                    bar full of foreigners.</p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Customer Support Representative</h3>
+                                    <span class="experience__company">From september 2019 to january 2020 | Pole To Win (Scotland)</span>
+                                    <p class="experience__description">I worked there for 6 months, but
+                                    I had to depart to Brazil to take care of my family, and then the pandemic came.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- CERTIFICADOS -->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Certificates</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">McGraw-Hill Education</h3>
+                                <p class="certificate__description">Upper Intermediate B2</p>
+                            </div>
+
+                            <!-- <div class="certificate__content">
+                                <h3 class="certificate__title">Certificado</h3>
+                                <p class="certificate__description">Descrição Certificado</p>
+                            </div> -->
+                        </div>
+                    </section>
+
+                    <!-- REFERENCIAS -->
+                    <!-- <section class="references section" id="references">
+                        <h2 class="section-title">References</h2>
+
+                        <div class="references__container bd-grid">
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitles">Manager</span>
+                                <h3 class="references__title">Mr. Alex</h3>
+                                <ul class="references__contact">
+                                    <li>Phone: (11)96043-2008</li>
+                                    <li>Email: user@email.com</li>
+                                </ul>
+                            </div>
+
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitles">Surpervisor</span>
+                                <h3 class="references__title">Mrs. Alessandra</h3>
+                                <ul class="references__contact">
+                                    <li>Phone: (11)96043-2008</li>
+                                    <li>Email: user@email.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section> -->
+
+                    <!-- LINGUAGENS -->
+                    <section class="languages section">
+                        <h2 class="section-title">Languages</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="langagues__circle"></span> English (Advanced)
+                                </li>
+
+                                <li class="languages__name">
+                                    <span class="langagues__circle"></span> Portugueses (Fluent)
+                                </li>
+
+                                <li class="languages__name">
+                                    <span class="langagues__circle"></span> Spanish (Basic)
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!-- INTERESSES -->
+                    <section class="interests section">
+                        <h2 class="interests-title">INTERESTS</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class='bx bxs-music interests__icons' ></i>
+                                <span class="interests__name">Jazz</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-movie interests__icons' ></i>
+                                <span class="interests__name">Movie</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bxs-joystick interests__icons' ></i>
+                                <span class="interests__name">Games</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-line-chart interests__icons' ></i>
+                                <span class="interests__name">Investment</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- PERFIL -->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Additional Information</h2>
+
+                        <p class="profile__description"><p>I am the person you can call a nerd. I love Video Games, Anime, Movies, and TV Shows. I have made three short films and an amateur made by me video/radio program about games. I like to invest in stocks too! </p>
+
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <!-- SCROLL TOP -->
+         <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bxs-up-arrow-alt scrolltop__icon'></i>
+         </a>
+
+        <!-- HTML2PDF -->
+        <script src="workspace/js/html2pdf.bundle.min.js"></script>
+
+        <!-- MAIN JS -->
+        <script src="workspace/js/main.js"></script>
+    </body>
+ </html>
